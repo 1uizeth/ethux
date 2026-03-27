@@ -1,7 +1,7 @@
 import { fetchAbi, isValidAddress } from '@/lib/etherscan'
 import { classifyAbi } from '@/lib/classifier'
 import { notFound } from 'next/navigation'
-import { GeneratedPageClient } from './GeneratedPageClient'
+import { GeneratedPageClient } from '@/components/generate/GeneratedPageClient'
 
 interface Props {
   params: Promise<{ address: string }>

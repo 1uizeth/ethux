@@ -1,4 +1,4 @@
-import { OPPORTUNITY_AREAS } from '@/data/framings'
+import { OPPORTUNITY_AREAS } from '@/lib/data/framings'
 import { AreaSection } from './AreaSection'
 
 export function FramingsIndex() {

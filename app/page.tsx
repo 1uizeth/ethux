@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { isValidAddress } from '@/lib/etherscan'
-import { OPPORTUNITY_AREAS } from '@/data/framings'
+import { OPPORTUNITY_AREAS } from '@/lib/data/framings'
 
 const EXAMPLE_CONTRACTS = [
   { name: 'Uniswap V2 Router', address: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D', description: 'swap, approve, addLiquidity' },

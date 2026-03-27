@@ -1,7 +1,7 @@
 'use client'
 
 import type { ClassifierResult } from '@/lib/types'
-import { GeneratedPage } from '@/components/gen-ds/GeneratedPage'
+import { GeneratedPage } from '@/components/generate/GeneratedPage'
 
 interface Props {
   address: string

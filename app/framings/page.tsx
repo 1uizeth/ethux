@@ -1,5 +1,5 @@
 import { FramingsIndex } from '@/components/framings/FramingsIndex'
-import { OPPORTUNITY_AREAS } from '@/data/framings'
+import { OPPORTUNITY_AREAS } from '@/lib/data/framings'
 
 export const metadata = {
   title: 'Problem Framings · ethux.design',

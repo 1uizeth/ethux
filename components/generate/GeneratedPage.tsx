@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import type { ClassifierResult } from '@/lib/types'
-import { PAIN_POINTS_BY_ID } from '@/data/framings'
+import { PAIN_POINTS_BY_ID } from '@/lib/data/framings'
 import { BatchedApproveSwap } from './BatchedApproveSwap'
 import { SigningSummary } from './SigningSummary'
 import { GasEstimator } from './GasEstimator'

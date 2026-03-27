@@ -1,5 +1,5 @@
 import type { AbiItem, FramingMatch, ClassifierResult } from '@/lib/types'
-import { EXACT_MATCHES, PATTERN_MATCHES } from '@/data/classification'
+import { EXACT_MATCHES, PATTERN_MATCHES } from '@/lib/data/classification'
 
 export function classifyAbi(abi: AbiItem[], contractName?: string): ClassifierResult {
   const functions = abi
